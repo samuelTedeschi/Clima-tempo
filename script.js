@@ -1,0 +1,10 @@
+const city = document.querySelector('.city');
+const date = document.querySelector('.date');
+const containerImg = document.querySelector('.container-img');
+const containerTemp = document.querySelector('.container-temp');
+const tempNumero = document.querySelector('.container-temp div');
+const tempUnidade = document.querySelector('.container-temp span');
+const weatherT = document.querySelector('.weather');
+const searchInput = document.querySelector('.form-control');
+const searchButton = document.querySelector('.btn');
+const lowHigh = document.querySelector('.hi-low');

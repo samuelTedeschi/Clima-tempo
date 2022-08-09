@@ -1,0 +1,23 @@
+.city{
+    font-size: 2.5rem;
+}
+
+.date{
+    font-size: 1.3rem;
+}
+
+.container-temp{
+    display: flex;
+    justify-content: center;
+
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.weather{
+    font-size: 1.3rem;
+}
+
+.hi-low{
+    font-size: 1.2rem;
+}
