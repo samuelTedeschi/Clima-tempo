@@ -116,15 +116,15 @@ containerTemp.addEventListener('click', changeTemp)
 function changeTemp() {
     temp_number_now = tempNumero.innerHTML
 
-    if (temp_unit.innerHTML === "°c") {
+    if (tempUnidade.innerHTML === "°c") {
         let f = (temp_number_now * 1.8) + 32
-        temp_unit.innerHTML = "°f"
-        temp_number.innerHTML = Math.round(f)
+        tempUnidade.innerHTML = "°f"
+        tempNumero.innerHTML = Math.round(f)
     }
     else {
         let c = (temp_number_now - 32) / 1.8
-        temp_unit.innerHTML = "°c"
-        temp_number.innerHTML = Math.round(c)
+        tempUnidade.innerHTML = "°c"
+        tempNumero.innerHTML = Math.round(c)
     }
 }
 
